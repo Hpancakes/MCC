@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC2C01F1F1A76A0009DF356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C01E1F1A76A0009DF356 /* AppDelegate.swift */; };
+		BEC2C0211F1A76A0009DF356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C0201F1A76A0009DF356 /* ViewController.swift */; };
+		BEC2C0241F1A76A0009DF356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C0221F1A76A0009DF356 /* Main.storyboard */; };
+		BEC2C0271F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C0251F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld */; };
+		BEC2C0291F1A76A0009DF356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C0281F1A76A0009DF356 /* Assets.xcassets */; };
+		BEC2C02C1F1A76A0009DF356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C02A1F1A76A0009DF356 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEC2C01B1F1A76A0009DF356 /* My ComicBook Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My ComicBook Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC2C01E1F1A76A0009DF356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC2C0201F1A76A0009DF356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC2C0231F1A76A0009DF356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC2C0261F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_ComicBook_Collection.xcdatamodel; sourceTree = "<group>"; };
+		BEC2C0281F1A76A0009DF356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC2C02B1F1A76A0009DF356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC2C02D1F1A76A0009DF356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC2C0181F1A76A0009DF356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC2C0121F1A76A0009DF356 = {
+			isa = PBXGroup;
+			children = (
+				BEC2C01D1F1A76A0009DF356 /* My ComicBook Collection */,
+				BEC2C01C1F1A76A0009DF356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC2C01C1F1A76A0009DF356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC2C01B1F1A76A0009DF356 /* My ComicBook Collection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC2C01D1F1A76A0009DF356 /* My ComicBook Collection */ = {
+			isa = PBXGroup;
+			children = (
+				BEC2C01E1F1A76A0009DF356 /* AppDelegate.swift */,
+				BEC2C0201F1A76A0009DF356 /* ViewController.swift */,
+				BEC2C0221F1A76A0009DF356 /* Main.storyboard */,
+				BEC2C0281F1A76A0009DF356 /* Assets.xcassets */,
+				BEC2C02A1F1A76A0009DF356 /* LaunchScreen.storyboard */,
+				BEC2C02D1F1A76A0009DF356 /* Info.plist */,
+				BEC2C0251F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld */,
+			);
+			path = "My ComicBook Collection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC2C01A1F1A76A0009DF356 /* My ComicBook Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC2C0301F1A76A0009DF356 /* Build configuration list for PBXNativeTarget "My ComicBook Collection" */;
+			buildPhases = (
+				BEC2C0171F1A76A0009DF356 /* Sources */,
+				BEC2C0181F1A76A0009DF356 /* Frameworks */,
+				BEC2C0191F1A76A0009DF356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My ComicBook Collection";
+			productName = "My ComicBook Collection";
+			productReference = BEC2C01B1F1A76A0009DF356 /* My ComicBook Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC2C0131F1A76A0009DF356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pachuca Inc.";
+				TargetAttributes = {
+					BEC2C01A1F1A76A0009DF356 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E2QK468QU7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEC2C0161F1A76A0009DF356 /* Build configuration list for PBXProject "My ComicBook Collection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC2C0121F1A76A0009DF356;
+			productRefGroup = BEC2C01C1F1A76A0009DF356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC2C01A1F1A76A0009DF356 /* My ComicBook Collection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC2C0191F1A76A0009DF356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC2C02C1F1A76A0009DF356 /* LaunchScreen.storyboard in Resources */,
+				BEC2C0291F1A76A0009DF356 /* Assets.xcassets in Resources */,
+				BEC2C0241F1A76A0009DF356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC2C0171F1A76A0009DF356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC2C0271F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld in Sources */,
+				BEC2C0211F1A76A0009DF356 /* ViewController.swift in Sources */,
+				BEC2C01F1F1A76A0009DF356 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC2C0221F1A76A0009DF356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC2C0231F1A76A0009DF356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC2C02A1F1A76A0009DF356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC2C02B1F1A76A0009DF356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC2C02E1F1A76A0009DF356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC2C02F1F1A76A0009DF356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC2C0311F1A76A0009DF356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = "My ComicBook Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pachucainc.My-ComicBook-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEC2C0321F1A76A0009DF356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = "My ComicBook Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pachucainc.My-ComicBook-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC2C0161F1A76A0009DF356 /* Build configuration list for PBXProject "My ComicBook Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC2C02E1F1A76A0009DF356 /* Debug */,
+				BEC2C02F1F1A76A0009DF356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC2C0301F1A76A0009DF356 /* Build configuration list for PBXNativeTarget "My ComicBook Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC2C0311F1A76A0009DF356 /* Debug */,
+				BEC2C0321F1A76A0009DF356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEC2C0251F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEC2C0261F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodel */,
+			);
+			currentVersion = BEC2C0261F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodel */;
+			path = My_ComicBook_Collection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEC2C0131F1A76A0009DF356 /* Project object */;
+}
