@@ -13,6 +13,8 @@
 		BEC2C0271F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C0251F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld */; };
 		BEC2C0291F1A76A0009DF356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C0281F1A76A0009DF356 /* Assets.xcassets */; };
 		BEC2C02C1F1A76A0009DF356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C02A1F1A76A0009DF356 /* LaunchScreen.storyboard */; };
+		BEC2C0341F1C6029009DF356 /* Batman-51-Cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC2C0331F1C6029009DF356 /* Batman-51-Cover.jpg */; };
+		BEC2C0361F1C60E5009DF356 /* ComicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2C0351F1C60E5009DF356 /* ComicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BEC2C0281F1A76A0009DF356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC2C02B1F1A76A0009DF356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC2C02D1F1A76A0009DF356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC2C0331F1C6029009DF356 /* Batman-51-Cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Batman-51-Cover.jpg"; sourceTree = "<group>"; };
+		BEC2C0351F1C60E5009DF356 /* ComicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		BEC2C01D1F1A76A0009DF356 /* My ComicBook Collection */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2C0331F1C6029009DF356 /* Batman-51-Cover.jpg */,
 				BEC2C01E1F1A76A0009DF356 /* AppDelegate.swift */,
 				BEC2C0201F1A76A0009DF356 /* ViewController.swift */,
+				BEC2C0351F1C60E5009DF356 /* ComicViewController.swift */,
 				BEC2C0221F1A76A0009DF356 /* Main.storyboard */,
 				BEC2C0281F1A76A0009DF356 /* Assets.xcassets */,
 				BEC2C02A1F1A76A0009DF356 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC2C0341F1C6029009DF356 /* Batman-51-Cover.jpg in Resources */,
 				BEC2C02C1F1A76A0009DF356 /* LaunchScreen.storyboard in Resources */,
 				BEC2C0291F1A76A0009DF356 /* Assets.xcassets in Resources */,
 				BEC2C0241F1A76A0009DF356 /* Main.storyboard in Resources */,
@@ -142,6 +149,7 @@
 			files = (
 				BEC2C0271F1A76A0009DF356 /* My_ComicBook_Collection.xcdatamodeld in Sources */,
 				BEC2C0211F1A76A0009DF356 /* ViewController.swift in Sources */,
+				BEC2C0361F1C60E5009DF356 /* ComicViewController.swift in Sources */,
 				BEC2C01F1F1A76A0009DF356 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
