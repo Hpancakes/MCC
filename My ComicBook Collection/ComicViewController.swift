@@ -36,8 +36,16 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         imagePicker.sourceType = .photoLibrary
         present(imagePicker, animated: true, completion: nil)
+        
     }
 
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        PortadaImgView.image = image
+        
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
    
     @IBAction func dateBtn(_ sender: Any) {
     }
