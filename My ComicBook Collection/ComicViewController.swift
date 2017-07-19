@@ -51,6 +51,15 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func addmeBtn(_ sender: Any) {
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let comicBook = ComicBook(context: context)
+        comicBook.comicbName = NameComicTxtField.text
+        comicBook.numbers = numeroTxtField.text
+        comicBook.portada = UIImagePNGRepresentation(PortadaImgView.image!)! as NSData
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
     }
  
     
