@@ -17,16 +17,21 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
     @IBOutlet weak var PortadaImgView: UIImageView!
     
     var imagePicker = UIImagePickerController()
+    var comic : ComicBook? = nil
     
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         imagePicker.delegate = self
 
-        // Do any additional setup after loading the view.
+/*
+        if comic != nil {
+            PortadaImgView.image = UIImage(data: comic?.portada! as! Data)
+            NameComicTxtField.text = comic?.comicbName
+        } else {
+            print("We don have game")
+        } */
     }
 
     @IBAction func CameraBtn(_ sender: Any) {
@@ -38,6 +43,7 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         present(imagePicker, animated: true, completion: nil)
         
     }
+    
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
@@ -45,7 +51,7 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         PortadaImgView.image = image
         
         imagePicker.dismiss(animated: true, completion: nil)
-    }
+    }   
    
     @IBAction func dateBtn(_ sender: Any) {
     }
@@ -60,7 +66,11 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         comicBook.portada = UIImagePNGRepresentation(PortadaImgView.image!)! as NSData
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController!.popViewController(animated: true)
     }
+    
+    
  
     
 }

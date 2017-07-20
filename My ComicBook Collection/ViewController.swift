@@ -35,13 +35,25 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return comics.count
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let comic = comics[indexPath.row]
+        performSegue(withIdentifier: "myComics", sender: comic)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segue"{ let nextVC = segue.destination as! ComicViewController
+        nextVC.comic = sender as? ComicBook
+        } 
+        
         
     }
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
@@ -49,8 +61,10 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         let comicNumero = comics[indexPath.row]
         cell.textLabel?.text = comic.comicbName
         cell.detailTextLabel?.text = comicNumero.numbers
+        cell.imageView?.image = UIImage(data: comic.portada! as Data)
         return cell
     }
+    
     
 
 
