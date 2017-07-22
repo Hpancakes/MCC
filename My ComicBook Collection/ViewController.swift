@@ -46,10 +46,15 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         performSegue(withIdentifier: "myComics", sender: comic)
     }
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segue"{ let nextVC = segue.destination as! ComicViewController
         nextVC.comic = sender as? ComicBook
-        } 
+        } else {
+            let selectVC = segue.destination as! ComicSelectViewController
+            selectVC.comic = sender as? ComicBook
+            
+        }
         
         
     }

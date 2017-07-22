@@ -25,13 +25,6 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         imagePicker.delegate = self
 
-/*
-        if comic != nil {
-            PortadaImgView.image = UIImage(data: comic?.portada! as! Data)
-            NameComicTxtField.text = comic?.comicbName
-        } else {
-            print("We don have game")
-        } */
     }
 
     @IBAction func CameraBtn(_ sender: Any) {
@@ -63,11 +56,16 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         let comicBook = ComicBook(context: context)
         comicBook.comicbName = NameComicTxtField.text
         comicBook.numbers = numeroTxtField.text
+        comicBook.saga = sagaTxtField.text
         comicBook.portada = UIImagePNGRepresentation(PortadaImgView.image!)! as NSData
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         
         navigationController!.popViewController(animated: true)
+        
+        
+        
+        
     }
     
     
