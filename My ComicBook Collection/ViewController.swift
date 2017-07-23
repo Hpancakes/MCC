@@ -65,7 +65,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let comic = comics[indexPath.row]
         let comicNumero = comics[indexPath.row]
-        cell.textLabel?.text = comic.saga
+        cell.textLabel?.text = comic.comicbName
         cell.detailTextLabel?.text = comicNumero.numbers
         //cell.imageView?.image = UIImage(data: comic.portada! as Data)
         return cell

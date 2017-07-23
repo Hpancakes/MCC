@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
 
     @IBOutlet weak var NameComicTxtField: UITextField!
     @IBOutlet weak var sagaTxtField: UITextField!
     @IBOutlet weak var numeroTxtField: UITextField!
     @IBOutlet weak var CompañiaTxtField: UITextField!
     @IBOutlet weak var PortadaImgView: UIImageView!
+ 
     
     var imagePicker = UIImagePickerController()
     var comic : ComicBook? = nil
@@ -24,10 +25,13 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         super.viewDidLoad()
         
         imagePicker.delegate = self
+       
 
     }
 
     @IBAction func CameraBtn(_ sender: Any) {
+        imagePicker.sourceType = .camera
+        present(imagePicker, animated: true, completion: nil)
     }
 
     @IBAction func PhotosBtn(_ sender: Any) {
@@ -46,8 +50,10 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         imagePicker.dismiss(animated: true, completion: nil)
     }   
    
-    @IBAction func dateBtn(_ sender: Any) {
-    }
+ 
+    
+
+    
     
     @IBAction func addmeBtn(_ sender: Any) {
         
