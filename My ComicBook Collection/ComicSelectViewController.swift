@@ -19,6 +19,7 @@ class ComicSelectViewController: UIViewController {
     @IBOutlet weak var readSwitch: UILabel!
     @IBOutlet weak var fechaTitle: UILabel!
     @IBOutlet weak var portadaImg: UIImageView!
+    @IBOutlet weak var imageTitle: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +28,8 @@ class ComicSelectViewController: UIViewController {
         ComicTitle2.text = comic?.comicbName
         sagaTitle.text = comic?.saga
         numeroComic.text = comic?.numbers
-        
-       // portadaImg = UIImagePNGRepresentation(PortadaImgView.image!)! as NSData
+        imageTitle.image = UIImage(data: comic!.portada! as Data)
+        portadaImg.image = UIImage(data: comic!.portada! as Data)
         
 
         // Do any additional setup after loading the view.
