@@ -24,6 +24,7 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         imagePicker.delegate = self
        
 
@@ -48,12 +49,9 @@ class ComicViewController: UIViewController, UIImagePickerControllerDelegate, UI
         PortadaImgView.image = image
         
         imagePicker.dismiss(animated: true, completion: nil)
-    }   
+    }
+    
    
- 
-    
-
-    
     
     @IBAction func addmeBtn(_ sender: Any) {
         
